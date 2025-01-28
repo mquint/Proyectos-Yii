@@ -32,6 +32,7 @@ variable "sg_ingress_cidr" {
 variable "ec2_specs" {
   description = "parametro de la instancia"
   type = map(string)
+   name="EC2"
 }
 
 variable "enable_monitoring" {
